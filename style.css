@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(48, 126, 126);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-weight: 900;
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.cards {
+    text-align: center;
+    background-color: black;
+    color: #ccc;
+    padding: 1rem;
+    box-sizing: border-box;
+    border-radius: 1rem; 
+}
